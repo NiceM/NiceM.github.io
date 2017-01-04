@@ -78,14 +78,14 @@ body{
 .searchinput {
 	line-height:13px;
 	height:12px;
-	top:-1px;
+	top:-2px;
 	position:relative;
 	margin-left:1px;
 	margin-right:1px;
 	width:100%;
 	border:none;
 	font-family: haxrcorp, monospace;
-	font-size:15px;
+	font-size:13px;
 	padding-bottom: 0px;
 	padding-top:0px;
 	padding-left:2px;

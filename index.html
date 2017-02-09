@@ -9,7 +9,7 @@
 <style type="text/css">
 html,body {
     margin: 0; padding: 0; overflow: auto; font-size: 15pt;
-    font-family: haxrcorp, haxrcorp;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     background: #17181A; color: #AAABAD;
 }
 * { box-sizing: border-box; }
@@ -17,8 +17,15 @@ html,body {
 a:link, a:visited { color: #606163; text-decoration: none; }
 a:hover, a:active { color: #EA75BC; }
 #center {
-    position: absolute; top: 50%; left: 50%;
+    position: absolute; top: 45%; left: 45%;
+    margin: auto;
     background: #FFFFFF; padding: 15px; border-radius: 100px;
+}
+#border{
+    position: absolute; top: 0%; left: 0%;
+    margin: auto;
+    padding:1px;
+    border:1px solid #AAAAAA;
 }
 </style>
 
@@ -28,12 +35,15 @@ var $=function(id) { return document.getElementById(id); };
 function init() {
     $('center').innerHTML="<a href=\"https://nicem.github.io/start_page2_firefox_and_chrome-master/Welcome\" target=\"_self\">Startpage</a>";
 }
-</script>
+  </script>
+<img src="cassette-tape-playing.gif" alt=""style = "width:128px;height:128px;">
+
 </head>
 <body onload="init();">
 
 
 <div id="center"></div>
+<div id="border"></div>
 
 
 </body>
